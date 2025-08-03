@@ -67,21 +67,26 @@
           </div>
           <div class="field">
             <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" placeholder="111 1111 111" />
+            <input type="tel" minlength="9" placeholder="111 1111 111" />
           </div>
           <div class="field">
             <label for="password">PASSWORD</label>
-            <input type="password" placeholder="******" required />
+            <input
+              type="password"
+              placeholder=" "
+              minlength="6"
+              required
+            />
           </div>
           <div class="field">
             <label for="con-pass">CONFIRM PASSWORD</label>
-            <input type="text" placeholder="same as password" />
+            <input type="password" placeholder=" " />
           </div>
         </div>
         <div class="submit">
           <button>Create Account</button>
           <p class="log-in" style="color: black">
-            Already have an account? <a href="" style="color: aqua">Login</a>
+            Already have an account? <a href="" style="color: #052e42">Login</a>
           </p>
         </div>
       </form>
