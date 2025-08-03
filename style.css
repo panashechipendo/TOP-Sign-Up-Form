@@ -97,6 +97,22 @@ input {
   border: 2px solid #e5e7eb;
 }
 
+input:invalid:not(:placeholder-shown) {
+  border: 2px solid lightcoral;
+}
+
+input:focus {
+  border: 2px solid #e5e7eb;
+}
+
+input:valid:not(:placeholder-shown) {
+  border: 2px solid lightgreen;
+}
+
+.submit {
+  margin-top: 50px;
+}
+
 button {
   margin-left: 40px;
   background-color: #052e42;
