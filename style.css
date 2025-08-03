@@ -3,6 +3,11 @@
   src: url("fonts/mate_journal-webfont.woff2") format("woff2"),
     url("fonts/mate_journal-webfont.woff") format("woff");
 }
+@font-face {
+  font-family: "Exo";
+  src: url("fonts/exo-regular-webfont.woff2") format("woff2"),
+    url("fonts/exo-regular-webfont.woff") format("woff");
+}
 
 * {
   box-sizing: border-box;
@@ -22,11 +27,11 @@
   width: 150%;
   height: 20%;
   position: absolute;
+  top: 120px;
   background-color: rgb(53, 49, 49, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
 }
 
 img {
@@ -34,7 +39,8 @@ img {
 }
 
 h1 {
-  font-family: "Title";
+  font-family: "Exo";
   color: white;
   font-size: 5rem;
+  margin-left: 15px;
 }
