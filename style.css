@@ -12,11 +12,15 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: "JetBrains", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   display: flex;
+}
+
+.main-content {
+  width: 70%;
 }
 
 .back-drop {
@@ -57,11 +61,54 @@ h1 {
   bottom: 15px;
   left: 15px;
 }
-p {
-  color: lightgray;
-  opacity: 0.5;
+
+h3 {
+  max-width: clamp(45ch, 75%, 75ch);
+  text-align: left;
+  margin-left: 40px;
 }
 
 .hero-text {
-  padding: 15px;
+  background-color: rgb(243, 237, 237);
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.input-fields {
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.field {
+  flex-basis: 50%;
+}
+
+input {
+  border: 2px solid #e5e7eb;
+}
+
+button {
+  margin-left: 40px;
+  background-color: #052e42;
+  font-size: large;
+  color: white;
+  height: 35px;
+  width: 180px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid darkblue;
+}
+
+.log-in {
+  margin-left: 40px;
 }
